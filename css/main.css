@@ -1,0 +1,36 @@
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.first-panel {
+	background-color: rgba(0,0,0,.80);
+    color:white;
+}
+.second-panel {
+	background-color: rgba(0,0,0, .85);
+	color: white;
+	text-align: center;
+}
+#profile-pic {
+	border-radius: 50%;
+	max-height: 250px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.profile-picture {
+	text-align: center;
+}
+.service photo {
+	max-height: 150px;
+	padding: 10px;
+}
